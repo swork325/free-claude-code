@@ -4,3 +4,5 @@ IMPORTANT: Ensure you've thoroughly reviewed the [AGENTS.md](AGENTS.md) file bef
 
 - Forked for learning purposes — experimenting with Claude API integration
 - Remember to set `ANTHROPIC_API_KEY` in `.env` before running locally
+- Using `claude-3-5-haiku-20241022` as default model for cheaper local testing
+- Keep an eye on token usage — set `max_tokens` to 1024 during dev to avoid surprise costs
